@@ -2,7 +2,7 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: node-express-andreas-namespace
-  namespace: default
+  namespace: johauand 
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: node-express-andreas-namespace
@@ -11,5 +11,5 @@ spec:
     git:
       ref:
         branch: main
-      url: https://github.com/vmware-tanzu/application-accelerator-samples.git
+      url: https://github.com/AndreasJohansson1990/test-own-namespace.git
     subPath: node-express-andreas-namespace
